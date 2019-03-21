@@ -8,7 +8,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+
+form{
+  display: block !important;
+  margin-left: calc(40% + 15px);
+  margin: 20px;
+}
+input{
+margin-left: 15px;
+}
+
+.val-text{
+  margin: 20px;
+  width: 400px;
+  overflow: auto;
+  word-wrap: break-word;
 }
